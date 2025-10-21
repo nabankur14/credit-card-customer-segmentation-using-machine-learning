@@ -1,0 +1,2 @@
+# credit-card-customer-segmentation-using-machine-learning
+Customer segmentation for credit-card portfolios using unsupervised learning (K-means &amp; Hierarchical). Includes EDA, clustering validation (elbow, silhouette, cophenetic), and business-actionable cluster profiling to guide targeted marketing and service improvements. Built with Python data tools for analytics and reproducible insights.
