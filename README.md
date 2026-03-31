@@ -9,6 +9,22 @@
 
 ---
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Dataset](#dataset)
+- [Methodology](#methodology)
+- [Key Results](#key-results)
+- [Business Impact](#business-impact)
+- [Skills](#skills)
+- [Key Learnings](#key-learnings)
+- [Future Improvements](#future-improvements)
+- [Repository Structure](#repository-structure)
+- [Author](#author)
+
+---
+
 ## Project Overview
 
 This project applies unsupervised machine learning techniques — specifically **K-Means Clustering** and **Hierarchical (Agglomerative) Clustering** — to segment AllLife Bank's credit card customer base into distinct, actionable groups based on their financial behaviour and service interaction patterns.
@@ -40,7 +56,7 @@ AllLife Bank seeks to improve its credit card market penetration and upgrade its
 
 | Attribute | Details |
 |---|---|
-| **Source** | AllLife Bank Internal CRM Dataset |
+| **Source** | AllLife Bank - Provided as part of PGP-DSBA project|
 | **Size** | 660 rows × 7 columns |
 | **Missing Values** | None |
 | **Duplicates** | None |
@@ -201,22 +217,45 @@ Customers with more credit cards make significantly fewer calls — signalling h
 ## Skills
 
 ### Technical Skills
+
+**Machine Learning & Clustering**
+
+![K-Means Clustering](https://img.shields.io/badge/K--Means_Clustering-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Hierarchical Clustering](https://img.shields.io/badge/Hierarchical_Clustering-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Agglomerative Clustering](https://img.shields.io/badge/Agglomerative_Clustering-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Elbow Method](https://img.shields.io/badge/Elbow_Method-FF6F00?style=for-the-badge&logoColor=white)
+![Silhouette Analysis](https://img.shields.io/badge/Silhouette_Analysis-FF6F00?style=for-the-badge&logoColor=white)
+![Cophenetic Correlation](https://img.shields.io/badge/Cophenetic_Correlation-FF6F00?style=for-the-badge&logoColor=white)
+![Dendrogram Analysis](https://img.shields.io/badge/Dendrogram_Analysis-FF6F00?style=for-the-badge&logoColor=white)
+
+**Data Analysis & Visualisation**
+
+![Univariate Analysis](https://img.shields.io/badge/Univariate_Analysis-FFA500?style=for-the-badge&logoColor=white)
+![Bivariate Analysis](https://img.shields.io/badge/Bivariate_Analysis-FFA500?style=for-the-badge&logoColor=white)
+![Correlation Heatmap](https://img.shields.io/badge/Correlation_Heatmap-FFA500?style=for-the-badge&logoColor=white)
+![Cluster Profiling](https://img.shields.io/badge/Cluster_Profiling-FFA500?style=for-the-badge&logoColor=white)
+![Outlier Detection](https://img.shields.io/badge/Outlier_Detection-FFA500?style=for-the-badge&logoColor=white)
+![Feature Scaling](https://img.shields.io/badge/Feature_Scaling-FFA500?style=for-the-badge&logoColor=white)
+
+**Tools & Libraries**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-77AC1D?style=for-the-badge&logo=seaborn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge&logo=matplotlib&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Exploratory Data Analysis](https://img.shields.io/badge/Data_Analysis-FFA500?style=for-the-badge&logo=google-analytics&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-77AC1D?style=for-the-badge&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 
 ### Soft Skills
-![Analytical Thinking](https://img.shields.io/badge/Analytical_Thinking-4B0082?style=for-the-badge&logo=mindmap&logoColor=white)
-![Communication](https://img.shields.io/badge/Communication-25D366?style=for-the-badge&logo=google-messages&logoColor=white)
-![Problem Solving](https://img.shields.io/badge/Problem_Solving-FF4500?style=for-the-badge&logo=brainly&logoColor=white)
-![Attention to Detail](https://img.shields.io/badge/Attention_to_Detail-00CED1?style=for-the-badge&logo=google-search-console&logoColor=white)
+![Analytical Thinking](https://img.shields.io/badge/Analytical_Thinking-4B0082?style=for-the-badge&logoColor=white)
+![Problem Solving](https://img.shields.io/badge/Problem_Solving-FF4500?style=for-the-badge&logoColor=white)
+![Business Acumen](https://img.shields.io/badge/Business_Acumen-0077B5?style=for-the-badge&logoColor=white)
+![Customer Empathy](https://img.shields.io/badge/Customer_Empathy-25D366?style=for-the-badge&logoColor=white)
+![Data Storytelling](https://img.shields.io/badge/Data_Storytelling-E4405F?style=for-the-badge&logoColor=white)
+![Critical Thinking](https://img.shields.io/badge/Critical_Thinking-1DA1F2?style=for-the-badge&logoColor=white)
+![Attention to Detail](https://img.shields.io/badge/Attention_to_Detail-00CED1?style=for-the-badge&logoColor=white)
 
 ---
 
@@ -241,6 +280,22 @@ Customers with more credit cards make significantly fewer calls — signalling h
 4. **Automated cluster labelling with LLMs:** Fine-tuned language models could automatically generate human-readable segment labels and marketing copy from cluster profiles, accelerating deployment.
 
 5. **Real-time segmentation pipeline:** Deploying the final K-Means model as a REST API endpoint would allow the CRM system to classify new customers in real-time upon onboarding, enabling immediate personalised targeting.
+
+---
+
+## Repository Structure
+
+```
+credit-card-customer-segmentation-using-machine-learning/
+├── data/
+│   └── Credit_Card_Customer_Data.xlsx   # Raw dataset
+├── notebook/
+│   └── Credit_Card_Customer_Segmentation.ipynb   # Full analysis notebook
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+```
 
 ---
 
